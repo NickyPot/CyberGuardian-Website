@@ -1,0 +1,46 @@
+input[type="usernameS"],input[type="password"]{
+ margin-top: 30px;
+ height: 45px;
+ width: 300px;
+ font-size: 18px;
+ margin-bottom: 20px;
+ background-color: #fff;
+ padding-left: 40px;
+ border-radius:50px;
+ border-color:darkcyan;
+}
+ 
+
+ 
+
+.btn-login{
+ padding: 15px 25px;
+ border: none;
+ background-color:darkcyan;
+ color: #fff;
+  border-radius:50px;
+ 
+}
+
+.profilepic{
+	
+	width:200px;
+	height:200px;
+	 border-radius:50px;
+}
+
+.carousel-caption1{
+	color: black;
+	padding-bottom:30px
+	
+}
+
+.containerart{
+	
+	margin-top:30px;
+	margin-left:30px;
+}
+.fail{
+	color:red;
+	
+}

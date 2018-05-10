@@ -1,0 +1,82 @@
+<?php
+
+session_start();
+if($_SESSION["loggedin"]==false)
+{
+    header('location: index.php');
+}
+
+
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cyber Guardian</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+<div class="container-fluid">
+	<a class="navbar-brand" href="main.php"><img src="CYberGuardianLogo.png"></a>
+	
+<div >
+	<h3> Bringing you cyber security news, one month at a time.</h3>
+	</div>
+ 
+</div>
+
+
+<!-- Black with white text -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+ <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="contactUs.html">Contact Us</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="tutorPage.html">Tutor Page</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="ourGoal.html">Our Goal</a>
+    </li>
+    
+  </ul>
+
+</nav>
+
+
+	<h2>HTML</h2>
+            
+      <p>Html was used for the websites main layout, images, and for the writing of the articles. It was also used to creat hypertext links to point to other points of the website.</p>
+	  
+	<h2>CSS Framework: Bootstrap</h2>
+            
+      <p>The CSS framework Bootstrap 4 was used to give the website a responsive design. It enabled automatic scaling for different screen sizes and devices. It also helped with the quick implementation of features such as the slider and the navigation bar.</p>
+
+	<h2>Custom CSS</h2>
+            
+      <p>Custom CSS was used to give the website a unique feeling. By just using the CSS elements that Bootstrap provides, the website would feel like any other, but after implemnting custom CSS elements I was able to achieve a result with character that can 
+	  recognised as a unique website.</p>
+	  
+	  <h2>CSS Animation</h2>
+            
+      <p>With the help of bootstrap I was able to implement a carousel. A carousel is a slideshow of images that allows you to scroll through images that can also have links and captions attached to them.</p>
+	  
+	  <h2>PHP and MySQL</h2>
+            
+      <p>PHP and MySQL were utilized to implement a member system, where the member can login to access the information on the website.</p>
+	  
+      
+</div>
+
+</body>
+</html>
